@@ -6,7 +6,6 @@ files:
 permissions:
   - object: /var/www/html/WordPress
     pattern: "**"
-    except: /var/www/html/WordPress/ReadMe.txt
     owner: ec2-user
     group: ec2-user
     mode: 644
